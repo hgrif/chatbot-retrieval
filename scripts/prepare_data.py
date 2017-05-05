@@ -7,7 +7,7 @@ import numpy as np
 import array
 
 tf.flags.DEFINE_integer(
-  "min_word_frequency", 5, "Minimum frequency of words in the vocabulary")
+  "min_word_frequency", 20, "Minimum frequency of words in the vocabulary")
 
 tf.flags.DEFINE_integer("max_sentence_len", 160, "Maximum Sentence Length")
 

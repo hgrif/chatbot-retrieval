@@ -4,12 +4,12 @@ from collections import namedtuple
 # Model Parameters
 tf.flags.DEFINE_integer(
   "vocab_size",
-  91620,
+  33307,
   "The size of the vocabulary. Only change this if you changed the preprocessing")
 
 # Model Parameters
 tf.flags.DEFINE_integer("embedding_dim", 100, "Dimensionality of the embeddings")
-tf.flags.DEFINE_integer("rnn_dim", 256, "Dimensionality of the RNN cell")
+tf.flags.DEFINE_integer("rnn_dim", 128, "Dimensionality of the RNN cell")
 tf.flags.DEFINE_integer("max_context_len", 160, "Truncate contexts to this length")
 tf.flags.DEFINE_integer("max_utterance_len", 80, "Truncate utterance to this length")
 
